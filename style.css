@@ -113,3 +113,10 @@ main {
   left: 29%;
   bottom: -1600%;
 }
+
+.section-title {
+  margin-top: 13%;
+  width: 65%;
+  margin-left: 22%;
+  font-size: x-large;
+}
