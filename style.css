@@ -79,10 +79,12 @@ main {
 .title {
   display: flex;
   flex-wrap: wrap;
-  width: 71%;
+  width: 79%;
   font-size: 50px;
   align-self: center;
   margin-top: -250px;
+  position: relative;
+  left: 4%;
 }
 
 .jumbo article {
@@ -103,4 +105,11 @@ main {
   position: absolute;
   top: 70px;
   font-size: 43px;
+}
+
+.scarica img {
+  width: 58%;
+  position: absolute;
+  left: 29%;
+  bottom: -1600%;
 }
