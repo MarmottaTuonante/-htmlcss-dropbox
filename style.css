@@ -22,6 +22,12 @@
   text-align: center;
 }
 
+.container {
+  width: 65%;
+  /* display: flex;
+  justify-content: flex-start; */
+  margin: 0 auto;
+}
 
 /* Header */
 header {
@@ -115,8 +121,79 @@ main {
 }
 
 .section-title {
+  display: flex;
+  justify-content: flex-start;
   margin-top: 13%;
-  width: 65%;
-  margin-left: 22%;
+  width: 100%;
+  /* margin-left: 22%; */
   font-size: x-large;
+}
+
+.radio {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 4%;
+  justify-content: start;
+}
+
+.left-btn {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card {
+  text-align: center;
+  margin-top: 25px;
+  border: solid 1px black;
+  width: calc(100% / 3.17);
+  height: 600px;
+}
+
+.card span {
+  position: relative;
+  top: 12.5px;
+}
+
+.card hr {
+  position: relative;
+  top: 22.3px;
+}
+
+.card-text {
+  padding-left: 7%;
+  width: 62.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: initial;
+}
+
+.card-text h2 {
+  padding-top: 25%;
+}
+
+.card-text h3 {
+  padding-top: 7%;
+}
+
+.card-text span {
+  padding-top: 10%;
+}
+
+.card #firstspan {
+  padding-top: 20%;
+}
+.btn-span {
+  padding-top: 15%;
 }
