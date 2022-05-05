@@ -367,9 +367,27 @@ main {
   padding: 50px;
   display: flex;
   flex-grow: 1;
-  flex-shrink: 0;
+  flex-shrink: 28;
   background-color: #f5f5f5;
   transition: box-shadow .3s;
+}
+
+.middle-square-txt {
+  width: 41.5%;
+  height: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  padding-bottom: 20%;
+  margin-left: -1%;
+}
+
+.middle-square-txt span {
+  padding-top: 32%;
+  position: absolute;
+  left: 0%;
 }
 
 .middle-square img {
