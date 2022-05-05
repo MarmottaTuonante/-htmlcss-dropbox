@@ -157,7 +157,7 @@ main {
   margin-top: 25px;
   border: solid 1px black;
   width: calc(100% / 3.17);
-  height: 600px;
+  height: 1000px;
 }
 
 .card span {
@@ -194,6 +194,18 @@ main {
 .card #firstspan {
   padding-top: 20%;
 }
+
 .btn-span {
   padding-top: 15%;
+}
+
+.btn-span a {
+  line-height: 50px;
+}
+
+.btn-span span {
+  position: relative;
+  top: 0;
+  margin-left: -19%;
+  margin-right: 2%;
 }
