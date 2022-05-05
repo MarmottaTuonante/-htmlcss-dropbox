@@ -221,7 +221,7 @@ main {
 
 .hr-card {
   position: relative;
-  text-align: center; 
+  text-align: center;
   margin-top: 7.5%;
   width: 100%;
   height: 170px;
@@ -273,7 +273,6 @@ main {
   padding: 30px;
 }
 
-/* test */
 .business-cards-title {
   display: flex;
   flex-direction: row;
@@ -322,7 +321,7 @@ main {
 }
 
 .business-cards:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.4);
+  box-shadow: 0 0 11px rgba(33, 33, 33, .4);
 }
 
 .img-bg {
@@ -341,4 +340,75 @@ main {
 .business-cards article {
   margin-top: 7%;
 }
-/* fine test */
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  margin-top: 21%;
+  width: 100%;
+  height: 400px;
+  background-color: #f5f5f5;
+}
+
+.squares-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 25%;
+  height: 100%;
+  background-color: #0061ff;
+}
+
+.middle-square {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  background-color: #f5f5f5;
+  transition: box-shadow .3s;
+}
+
+.middle-square img {
+  width: 160px;
+  height: 100px;
+}
+
+.middle-square hr {
+  border: solid 1px lightgray;
+  width: 4%;
+  display: flex;
+  align-self: center;
+  position: absolute;
+  left: 28%;
+  margin-bottom: 5%;
+}
+
+.squares {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* width: calc(100% / 2);
+  height: calc(100% / 2); */
+  width: 50%;
+  height: 50%;
+  transition: box-shadow .3s;
+}
+
+.squares:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .4);
+}
+
+.middle-square:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .4);
+}
+
+.squares img {
+  filter: invert(1);
+  width: 70%;
+  height: 70%;
+}
