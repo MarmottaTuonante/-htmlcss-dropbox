@@ -465,3 +465,35 @@ main {
   /* height: 500px; */
   /* background-color: blanchedalmond; */
 }
+
+/* fine main */
+
+/* footer */
+.foot-container {
+  /* display: flex; */
+  margin-top: 100px;
+  width: 100%;
+  background-color: black;
+  height: 400px;
+}
+
+.cols-container {
+  margin: 0 auto;
+  width: 73%;
+  height: 100%;
+  /* background-color: rgb(90, 54, 0); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cols {
+  margin-top: 5%;
+  
+}
+
+.cols li {
+  color: white;
+  list-style-type: none;
+  padding-top: 11px;
+}
