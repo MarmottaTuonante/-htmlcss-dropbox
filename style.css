@@ -374,14 +374,14 @@ main {
 
 .middle-square-txt {
   width: 41.5%;
-  height: 95%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  position: absolute;
-  padding-bottom: 20%;
-  margin-left: -1%;
+    height: 46%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    padding-bottom: -5%;
+    margin-left: -1%;
 }
 
 .middle-square-txt span {
@@ -429,4 +429,39 @@ main {
   filter: invert(1);
   width: 70%;
   height: 70%;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 220px;
+  background-color: #b4d0e7;
+}
+
+.action-text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  /* padding: 7%; */
+  width: 70%;
+  height: 100%;
+  /* background-color: blanchedalmond; */
+}
+
+.faq {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  /* height: 500px; */
+  /* background-color: blanchedalmond; */
 }
